@@ -57,7 +57,7 @@ function getSelectedPreview() {
 }
 
 function registerEvents(events) {
-  const calendar = CalendarApp.getCalendarById('xxxxxxxx.calendar.google.com');
+  const calendar = CalendarApp.getCalendarById('8f1bce7581c514e6e241989446b32497b561129a04bb9f806a8e4e396de7840d@group.calendar.google.com');
   let count = 0;
   events.forEach(ev => {
     const date = new Date(ev.dateObj);
